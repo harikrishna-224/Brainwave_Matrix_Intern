@@ -24,3 +24,67 @@ This project is a ATM interface implemented in Java. It allows users to perform 
 ### Prerequisites  
 - JDK 8 or higher installed  
 - Terminal or command prompt access
+- atm-console/
+├── src/
+│ └── main/
+│ └── java/
+│ └── com/
+│ └── bank/
+│ └── atm/
+│ ├── model/
+│ │ └── Account.java # Account model class
+│ ├── repo/
+│ │ └── Bank.java # Repository handling accounts and transactions
+│ ├── ui/
+│ │ └── ATM.java # User interface and interaction logic
+│ └── App.java # Main application class with entry point
+├── test/
+│ └── java/
+│ └── com/
+│ └── bank/
+│ └── atm/
+│ └── AppTest.java # Unit tests
+└── target/ # Compiled classes and build output
+
+
+Collapse
+
+## Technologies
+- Java SE 8 or higher  
+- No external dependencies (uses standard Java libraries)  
+
+## Getting Started
+
+### Prerequisites
+- Java Development Kit (JDK) 8 or above  
+- Terminal or command prompt access
+
+### Running the Application
+
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/yourusername/atm-console.git
+   
+Navigate to the project directory:
+BASH
+cd atm-console
+Compile the Java source files:
+BASH
+
+javac -d target/classes src/main/java/com/bank/atm/model/Account.java \
+                       src/main/java/com/bank/atm/repo/Bank.java \
+                       src/main/java/com/bank/atm/ui/ATM.java \
+                       src/main/java/com/bank/atm/App.java
+Run the application:
+BASH
+
+java -cp target/classes com.bank.atm.App
+Usage
+On startup, enter your account number and PIN to log in.
+Use the numeric menu to select transactions (withdraw, deposit, transfer, bill pay, balance inquiry).
+Follow on-screen prompts to complete operations.
+Choose the exit option to quit the application.
+Contribution
+Contributions are welcome! Feel free to fork the repository, create feature branches, and submit pull requests or open issues.
+##Contact:
+For any questions or support, please reach out at [your-gurijalaharikrishna90@gmail.com]
