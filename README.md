@@ -1,5 +1,5 @@
 # Brainwave_Matrix_Intern
-# Fully Functional ATM Interface (Terminal-Based) in Java
+# Fully Functional ATM Interface in Java
 
 ## Overview
 This project is a ATM interface implemented in Java. It allows users to perform common banking operations such as cash withdrawal, deposits, balance checks, fund transfers, and bill payments through a simple text-driven menu in the command line. The application includes PIN authentication, input validation, and basic error handling to simulate real-world ATM functionality.
@@ -24,7 +24,8 @@ This project is a ATM interface implemented in Java. It allows users to perform 
 ### Prerequisites  
 - JDK 8 or higher installed  
 - Terminal or command prompt access
-- atm-console/
+  
+atm-console/
 ├── src/
 │ └── main/
 │ └── java/
@@ -45,10 +46,6 @@ This project is a ATM interface implemented in Java. It allows users to perform 
 │ └── atm/
 │ └── AppTest.java # Unit tests
 └── target/ # Compiled classes and build output
-
-
-Collapse
-
 ## Technologies
 - Java SE 8 or higher  
 - No external dependencies (uses standard Java libraries)  
