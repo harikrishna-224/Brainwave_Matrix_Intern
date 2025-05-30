@@ -25,27 +25,7 @@ This project is a ATM interface implemented in Java. It allows users to perform 
 - JDK 8 or higher installed  
 - Terminal or command prompt access
   
-atm-console/
-├── src/
-│ └── main/
-│ └── java/
-│ └── com/
-│ └── bank/
-│ └── atm/
-│ ├── model/
-│ │ └── Account.java # Account model class
-│ ├── repo/
-│ │ └── Bank.java # Repository handling accounts and transactions
-│ ├── ui/
-│ │ └── ATM.java # User interface and interaction logic
-│ └── App.java # Main application class with entry point
-├── test/
-│ └── java/
-│ └── com/
-│ └── bank/
-│ └── atm/
-│ └── AppTest.java # Unit tests
-└── target/ # Compiled classes and build output
+
 ## Technologies
 - Java SE 8 or higher  
 - No external dependencies (uses standard Java libraries)  
